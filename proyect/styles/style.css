@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lora:ital@1&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -10,7 +10,7 @@ nav{
 }
 a{
     text-align: center;
-    font-family: 'Roboto Mono','Fira Sans', sans-serif,monospace;
+    font-family: 'Gloock','Lora', serif;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -25,23 +25,23 @@ section{
     text-align: center;
 }
 body{
-    background-color: #687D64;
-    font-family: monospace,'Roboto Mono','Fira Sans', sans-serif;
+    background-color: #17A49D;
+    font-family: 'Lora','Gloock', serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 header{
-    background-color: rgba(227, 220, 149, .7);
+    background-color: rgba(23, 164, 157,0.7);
     display: grid;
     grid-template-columns: 150px auto;
 }
 nav a:hover{
-    background-color: rgb(166, 168, 103);
+    background-color: rgba(1, 41, 95, 0.2);
     color: black;
 }
 .msg{
-    background-color: #E1DA8E;
+    background-color: rgba(64, 89, 173,0.5);
     padding: 35px;
     line-height: 1.5em;
     grid-column: 6/10;
@@ -64,8 +64,8 @@ nav a{
     padding: 35px;
 }
 .home-title{
-    color: #A6A867;
-    font-family: 'Fira Sans','Roboto Mono', sans-serif,monospace;
+    color: rgb(255, 255, 255);
+    font-family: 'Lora','Gloock', serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -73,11 +73,11 @@ h4{
     color: #A6A867;
 }
 .msg h2{
-    color: #514C15;
-    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(35, 31, 32);
+    font-family: 'Lora','Gloock', serif;
 }
 .msg p {
-    color: #726B1D;
+    color: rgb(1, 41, 95);
     font-size: .8em;
     padding-bottom: 15px;
 }
