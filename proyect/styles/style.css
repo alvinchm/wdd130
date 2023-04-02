@@ -215,7 +215,6 @@ main section img{
 }
 .step3-card{
     grid-column: 8/11;
-    width: 385px;
 }
 #challenge-hero-msg h3 {
     color: black;
