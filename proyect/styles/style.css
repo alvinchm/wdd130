@@ -208,7 +208,7 @@ main section img{
 }
 .step-card{
     grid-column: 1/2;
-    width: 450px;
+    width: 300px;
 }
 .step2-card{
     grid-column: 3/7;
