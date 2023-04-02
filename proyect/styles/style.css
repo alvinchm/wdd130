@@ -13,7 +13,7 @@ a{
     font-family: 'Gloock','Lora', serif;
 }
 #hero-msg h1, #hero-msg h4{
-    text-align: center;
+    text-align: center; 
 }
 .button-box{
     text-align: center;
@@ -206,6 +206,38 @@ main section img{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #000000;
 }
+.step-card{
+    grid-column: 1/3;
+    width: 450px;
+}
+.step2-card{
+    grid-column: 4/7;
+}
+.step3-card{
+    grid-column: 8/11;
+}
+#challenge-hero-msg h3 {
+    color: black;
+}
+#challenge-hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#challenge-hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.challenge-home-title{
+    color: black;
+    font-family: 'Lora','Gloock', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#challenge-hero-msg h1, #challenge-hero-msg h4{
+    text-align: center; 
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -221,17 +253,20 @@ main section img{
     #hero {
         margin-top: 0;
     }
+    #challenge-hero{
+        margin-top: 0;
+    }
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg h4 {
+    #hero-msg h4, #challenge-hero-msg h4 {
         display: none;
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .helping-card,.helping-card2,.helping-card1, .challenge-card{ 
+    .helping-card,.helping-card2,.helping-card1, .challenge-card, .step-card, .step2-card, .step3-card{ 
         margin: 50px auto;
         width: 60%;
     }
